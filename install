@@ -5,6 +5,7 @@ f=$(pwd)
 ln -si $f/dotfiles/bash_profile ~/.bash_profile
 ln -si $f/dotfiles/bashrc ~/.bashrc
 ln -si $f/dotfiles/gemrc ~/.gemrc
+ln -si $f/dotfiles/vim ~/.vim
 ln -si $f/dotfiles/vimrc ~/.vimrc
 ln -si $f/dotfiles/gitignore_global ~/.gitignore_global
 
