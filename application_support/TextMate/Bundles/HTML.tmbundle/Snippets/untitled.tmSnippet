@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Chocolate bar chupa chups caramels gingerbread cheesecake biscuit. Jujubes lollipop cake lemon drops candy canes candy canes. Pudding jelly beans cupcake jelly beans gingerbread. Jelly pie lollipop sugar plum lemon drops candy ice cream wafer marzipan.</string>
+	<key>name</key>
+	<string>lorem</string>
+	<key>tabTrigger</key>
+	<string>lorem</string>
+	<key>uuid</key>
+	<string>584625EC-7311-439F-9AD8-681F17747C2C</string>
+</dict>
+</plist>

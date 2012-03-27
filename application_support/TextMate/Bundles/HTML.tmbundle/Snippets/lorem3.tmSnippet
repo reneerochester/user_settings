@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Sugar plum gingerbread wafer dessert topping. Danish pudding toffee wafer sweet roll dragée pudding applicake pie. Muffin cookie croissant macaroon lemon drops chocolate bar jelly caramels. Sweet toffee jujubes gummi bears gummies chocolate cake lollipop.</string>
+	<key>name</key>
+	<string>lorem3</string>
+	<key>tabTrigger</key>
+	<string>lorem3</string>
+	<key>uuid</key>
+	<string>C3359B59-E93D-4334-AA31-4E64605F41DA</string>
+</dict>
+</plist>

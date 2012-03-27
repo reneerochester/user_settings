@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>mainMenu</key>
+		<dict>
+			<key>excludedItems</key>
+			<array>
+				<string>zen-sel-prev-2</string>
+				<string>zen-decrement_number-1-3</string>
+				<string>zen-encode-decode-image-3</string>
+				<string>zen-toggle-comment-3</string>
+				<string>zen-remove-tag-3</string>
+				<string>zen-image-size-3</string>
+				<string>zen-reflect-css-3</string>
+				<string>zen-sel-next-2</string>
+				<string>zen-split-join-tag-3</string>
+				<string>FB08A10D-F5C9-4D60-9A02-856835FFF42E</string>
+				<string>4C1466AA-6D21-455B-96D2-92703E52243E</string>
+				<string>zen-increment_number-1-3</string>
+				<string>zen-wrap-abbr-3</string>
+			</array>
+			<key>items</key>
+			<array>
+				<string>zen-balance-outward-2</string>
+				<string>1B3928AC-1FDA-4956-9002-90D8C17D3B77</string>
+			</array>
+			<key>submenus</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>B2B32343-BDBC-45A3-8E73-E55E9FAE380F</string>
+</dict>
+</plist>

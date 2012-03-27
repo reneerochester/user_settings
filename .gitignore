@@ -1,0 +1,4 @@
+ssh/id_rsa*
+*TextMate.pid
+heroku/credentials
+*.DS_Store

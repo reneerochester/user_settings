@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jQuery(function (\$) {
+	\$.fn.controller = function (opt) {
+
+	  //This object
+		var	s = this,
+		//Options
+		o = \$.extend(true, {
+			model: 				false,
+			library: 			false,
+			debug: 				false,
+			dom: {
+				selector: '#'
+			}
+		}, opt);
+		
+		var model = o.model;
+		var library = o.library;
+		
+		//Get jquery objects from the o.dom
+		var D = function(key) {
+			if (key &amp;&amp; o.dom[key]){
+				return s.find(o.dom[key]);
+			}
+			return false;
+		};
+		
+		var p = {
+			index : function() {
+				s.index();
+			}
+		};
+		
+		this.index = function() {
+			
+		};
+
+		this.construct = function(){
+			
+			//Try to call the method named in the second url segment
+			if (CI.segment[2]){
+				var m = CI.segment[2];
+				var fn = p[m];
+				if(typeof fn === 'function') {
+			    fn();
+				}
+			}else{
+				p.index();
+			}
+			
+    };
+		
+		this.construct();
+		return p;
+	};
+});
+
+\$(document).ready(function(){
+	
+	var debug = false;
+	var controller =	\$('html').controller({
+		debug: 				debug
+	});
+	
+});</string>
+	<key>name</key>
+	<string>jquery controller</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>jqc</string>
+	<key>uuid</key>
+	<string>99BACB1B-8673-465E-83C6-0FABA4FEE765</string>
+</dict>
+</plist>
