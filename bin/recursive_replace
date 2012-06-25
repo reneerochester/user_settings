@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby  
+
+# Recursive String Replacement - Approach 2, starting in current dir.  
+# Author: Dave Hulihan  
+
+require 'find'  
+
+def get_dirs # get all directories(recursive), starting in current   
+  dir_array = Array.new   
+  Find.find('./') do |f|   
+    dir_array << f if !File.directory?(f) # add only non-directories  
+  end  
+  return dir_array  
+end  
+
+if ARGV.length < 2  
+  puts "Usage: recursive_replace \"[string1]\" \"[string2]\""  
+  exit 0  
+end  
+
+@string1 = ARGV[0]  
+@string2 = ARGV[1]  
+
+puts "Replacing #{@string1} with #{@string2}..."  
+directories = get_dirs  
+for directory in directories  
+  if directory && directory != "." && directory != ".."   
+    exec_string = "replace \"#{@string1}\" \"#{@string2}\" -- #{directory}"  
+    #puts "In #{directory}"  
+    # puts exec_string   
+    system(exec_string)  
+  end  
+end  
+
+puts "Done!"
