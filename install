@@ -2,6 +2,7 @@
 
 f=$(pwd)
 
+ln -si $f/bin ~/bin
 ln -si $f/dotfiles/bash_profile ~/.bash_profile
 ln -si $f/dotfiles/bashrc ~/.bashrc
 ln -si $f/dotfiles/gemrc ~/.gemrc
