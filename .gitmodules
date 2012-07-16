@@ -32,3 +32,6 @@
 [submodule "application_support/TextMate/Bundles/javascript.tmbundle"]
 	path = application_support/TextMate/Bundles/javascript.tmbundle
 	url = git://github.com/subtleGradient/javascript.tmbundle.git
+[submodule "application_support/TextMate/Bundles/ruby-on-rails.tmbundle"]
+	path = application_support/TextMate/Bundles/ruby-on-rails.tmbundle
+	url = https://github.com/Tricon/ruby-on-rails-tmbundle
