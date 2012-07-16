@@ -29,3 +29,6 @@
 [submodule "application_support/TextMate/Bundles/sass-textmate-bundle"]
 	path = application_support/TextMate/Bundles/sass-textmate-bundle
 	url = https://github.com/seaofclouds/sass-textmate-bundle.git
+[submodule "application_support/TextMate/Bundles/javascript.tmbundle"]
+	path = application_support/TextMate/Bundles/javascript.tmbundle
+	url = git://github.com/subtleGradient/javascript.tmbundle.git
