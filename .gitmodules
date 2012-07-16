@@ -38,3 +38,6 @@
 [submodule "application_support/TextMate/Bundles/SCSS.tmbundle"]
 	path = application_support/TextMate/Bundles/SCSS.tmbundle
 	url = git://github.com/kuroir/SCSS.tmbundle.git
+[submodule "application_support/TextMate/Bundles/zen-coding.tmbundle"]
+	path = application_support/TextMate/Bundles/zen-coding.tmbundle
+	url = git://github.com/sergeche/zen-coding.git
