@@ -6,3 +6,4 @@ heroku/credentials
 application_support/TextMate/Cache/*
 application_support/TextMate/Managed/*
 application_support/TextMate/Session/*
+application_support/TextMate/com.macromates.textmate.pid
