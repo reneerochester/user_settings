@@ -2,3 +2,7 @@ ssh/id_rsa*
 *TextMate.pid
 heroku/credentials
 *.DS_Store
+
+application_support/TextMate/Cache/*
+application_support/TextMate/Managed/*
+application_support/TextMate/Session/*
