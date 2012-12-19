@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.${1:function_name}(function(${2:argument}) {
+  ${0:// body...}
+});</string>
+	<key>name</key>
+	<string>jquery anan func</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>.</string>
+	<key>uuid</key>
+	<string>9A719F10-6797-41CA-998B-871A82D23FB0</string>
+</dict>
+</plist>
