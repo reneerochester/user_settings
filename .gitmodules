@@ -9,10 +9,6 @@
 [submodule "application_support/TextMate/Bundles/CoffeeScript.tmbundle"]
 	path = application_support/TextMate/Bundles/CoffeeScript.tmbundle
 	url = git://github.com/jashkenas/coffee-script-tmbundle.git
-
-[submodule "application_support/TextMate/Bundles/ruby-haml.tmbundle"]
-	path = application_support/TextMate/Bundles/ruby-haml.tmbundle
-	url = https://github.com/textmate/ruby-haml.tmbundle.git
 	
 [submodule "Ack.tmbundle"]
   path = application_support/TextMate/Bundles/Ack.tmbundle
@@ -24,9 +20,6 @@
 [submodule "application_support/TextMate/Bundles/javascript.tmbundle"]
 	path = application_support/TextMate/Bundles/javascript.tmbundle
 	url = git://github.com/subtleGradient/javascript.tmbundle.git
-[submodule "application_support/TextMate/Bundles/ruby-on-rails.tmbundle"]
-	path = application_support/TextMate/Bundles/ruby-on-rails.tmbundle
-	url = https://github.com/Tricon/ruby-on-rails-tmbundle
 [submodule "application_support/TextMate/Bundles/SCSS.tmbundle"]
 	path = application_support/TextMate/Bundles/SCSS.tmbundle
 	url = git://github.com/kuroir/SCSS.tmbundle.git
